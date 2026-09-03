@@ -1,0 +1,12 @@
+{
+    "terminal.integrated.profiles.linux": {
+        "Embedded Dev": {
+            "path": "/bin/bash",
+            "args": [
+                "-c",
+                "exec /usr/bin/distrobox enter embedded-dev"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "Embedded Dev"
+}
